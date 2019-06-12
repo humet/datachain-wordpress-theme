@@ -1,0 +1,21 @@
+.pages {
+  .what-we-do {
+    background-color: $light-grey;
+    min-height: 560px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 50px 0;
+    box-sizing: border-box;
+  }
+
+  .how-we-do-it {
+    background-color: $white;
+    min-height: 560px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 50px 0;
+    box-sizing: border-box;
+  }
+}

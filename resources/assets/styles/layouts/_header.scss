@@ -1,2 +1,40 @@
-// TODO: .banner .nav li {}
-// TODO: .banner .nav a {}
+.header {
+  min-height: 110px;
+  width: 100%;
+
+  .container {
+    flex-direction: row !important;
+    justify-content: space-between;
+  }
+
+  .brand {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 200px;
+    height: auto;
+
+    img {
+      width: 100%;
+    }
+  }
+
+  .nav-primary {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    ul {
+      padding: 0;
+      list-style: none;
+      display: flex;
+      flex-direction: row;
+      width: 100%;
+      justify-content: flex-end;
+    }
+
+    li {
+      margin: 0 20px;
+    }
+  }
+}

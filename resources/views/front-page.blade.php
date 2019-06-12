@@ -3,6 +3,7 @@
 @section('content')
   @while(have_posts()) @php the_post() @endphp
     @include('partials.page-header')
-    @include('partials.content-page')
+    @include('partials.content-what-we-do')
+    @include('partials.content-how-we-do-it')
   @endwhile
 @endsection

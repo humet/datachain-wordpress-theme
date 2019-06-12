@@ -1,0 +1,26 @@
+.footer {
+  display: flex;
+  flex-direction: column;
+  height: auto;
+
+  &-top {
+    min-height: 206px;
+    display: flex;
+    flex-direction: row;
+    background-color: $purple;
+    justify-content: center;
+    color: $white;
+    padding: 50px 0;
+    box-sizing: border-box;
+  }
+
+  &-bottom {
+    min-height: 106px;
+    display: flex;
+    flex-direction: row;
+    background-color: $white;
+    justify-content: center;
+    padding: 30px 0;
+    box-sizing: border-box;
+  }
+}
