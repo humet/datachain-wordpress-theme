@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css?family=Work+Sans:300,400,500&display=swap");
+
 body {
   padding: 0;
   margin: 0;
@@ -15,10 +17,14 @@ body {
   display: flex;
   flex-direction: column;
   height: auto;
-  max-width: 1000px;
+  max-width: 1200px;
   width: 100%;
   padding: 0 30px;
   box-sizing: border-box;
+}
+
+.space-between {
+  justify-content: space-between;
 }
 
 .row {
@@ -39,4 +45,39 @@ body {
 
 .border-bottom {
   border-bottom: 1px solid $iron;
+}
+
+.grey {
+  background-color: $athens-gray !important;
+}
+
+.title-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+}
+
+.text {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.arrow {
+  background: url(../images/svg/arrow.svg) no-repeat center center;
+  display: block;
+  height: 23px;
+  width: 47px;
+  margin: auto 20px auto 0;
+}
+
+.icon {
+  display: block;
+  height: 97px;
+  width: 89px;
+  margin: auto 20px auto 18px;
+
+  img {
+    width: 100%;
+  }
 }

@@ -1,6 +1,7 @@
-<section class="wrap what-we-do">
+<section class="wrap grey-section">
         <div class="container row-reverse">
             <div class="animated-svg">
+                    <img src="@asset('images/svg/Home3-01.svg')"/>
             </div>
             <div class="content">
                 <h2>Discover what <span>matters</span> on social</h2>

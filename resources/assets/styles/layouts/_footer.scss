@@ -20,7 +20,39 @@
     flex-direction: row;
     background-color: $white;
     justify-content: center;
-    padding: 30px 0;
     box-sizing: border-box;
+  }
+
+  &-social {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+    &__icons {
+      width: 32px;
+      height: 106px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      margin-right: 10px;
+      padding: 30px 0;
+      box-sizing: border-box;
+
+      img {
+        height: 32px;
+      }
+    }
+  }
+
+  &-logo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: auto;
+
+    img {
+      width: 144px;
+      opacity: 0.5;
+    }
   }
 }

@@ -1,6 +1,7 @@
-<section class="wrap how-we-do-it">
+<section class="wrap white-section">
         <div class="container row">
             <div class="animated-svg">
+                    <img src="@asset('images/svg/Home4-01.svg')"/>
             </div>
             <div class="content">
                 <h2>Discover what <span>matters</span> on social</h2>

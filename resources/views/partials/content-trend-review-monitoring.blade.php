@@ -1,11 +1,12 @@
-<section class="wrap what-we-do">
+<section class="wrap white-section">
         <div class="container row-reverse">
             <div class="animated-svg">
+                    <img src="@asset('images/svg/WhatWeDo3-01.svg')"/>
             </div>
             <div class="content">
-                <h2>Discover what <span>matters</span> on social</h2>
-                <p>social-first data is changing the way brands approach campaigns. in a landscape that's already overcrowded, insights cut through to make messages stand out</p>
-                <div class=""></div>
+                    <div class="title-section"><div class="arrow"></div><h2>Trend &amp; Review Monitoring</h2></div>
+                    <div class="text"><div class="icon"><img src="@asset('images/svg/eye.svg')"/></div><p>social-first data is changing the way brands approach campaigns. in a landscape that's already overcrowded, insights cut through to make messages stand out</p></div>
+                    <div class=""></div>
             </div>
             </div>
         </section>
