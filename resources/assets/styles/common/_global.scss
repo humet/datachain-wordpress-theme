@@ -18,3 +18,15 @@ body {
   width: 1000px;
   padding: 0 30px;
 }
+
+.row-reverse {
+  flex-direction: row-reverse;
+}
+
+.column-reverse {
+  flex-direction: column-reverse;
+}
+
+.border-bottom {
+  border-bottom: 1px solid $iron;
+}
