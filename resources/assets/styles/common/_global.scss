@@ -81,3 +81,18 @@ body {
     width: 100%;
   }
 }
+
+.tools {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+
+  .resources {
+    display: flex;
+    width: 25%;
+    padding: 30px;
+    box-sizing: border-box;
+    justify-content: center;
+    flex-direction: column;
+  }
+}

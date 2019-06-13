@@ -46,6 +46,18 @@
         text-decoration: none;
         color: $lucky-point;
       }
+
+      &:hover,
+      &.current-menu-item {
+        &::after {
+          content: "";
+          background: url(../images/svg/underline.svg) no-repeat center center;
+          display: block;
+          height: 2px;
+          width: 100%;
+          margin-top: 5px;
+        }
+      }
     }
   }
 }

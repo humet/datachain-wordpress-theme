@@ -1,14 +1,28 @@
 .pages {
   margin-top: 110px;
 
-  .grey-section {
-    background-color: $athens-gray;
+  .white-section {
+    background-color: $white;
     min-height: 410px;
     display: flex;
     flex-direction: row;
     justify-content: center;
     padding: 50px 0;
     box-sizing: border-box;
+
+    h2 {
+      font-family: "Work Sans", sans-serif;
+      font-weight: $light;
+      color: $lucky-point;
+      font-size: 30px;
+      line-height: 43px;
+
+      &.alt {
+        font-weight: $medium;
+        font-size: 46px;
+        line-height: 51px;
+      }
+    }
 
     .content {
       width: 50%;
@@ -18,12 +32,10 @@
       box-sizing: border-box;
       justify-content: center;
 
-      h2 {
-        font-family: "Work Sans", sans-serif;
-        font-weight: $light;
-        color: $lucky-point;
-        font-size: 30px;
-        line-height: 43px;
+      &-alt {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
       }
 
       p {
@@ -45,14 +57,28 @@
     }
   }
 
-  .white-section {
-    background-color: $white;
+  .grey-section {
+    background-color: $athens-gray;
     min-height: 410px;
     display: flex;
     flex-direction: row;
     justify-content: center;
     padding: 50px 0;
     box-sizing: border-box;
+
+    h2 {
+      font-family: "Work Sans", sans-serif;
+      font-weight: $light;
+      color: $lucky-point;
+      font-size: 30px;
+      line-height: 43px;
+
+      &.alt {
+        font-weight: $medium;
+        font-size: 46px;
+        line-height: 51px;
+      }
+    }
 
     .content {
       width: 50%;
@@ -61,14 +87,6 @@
       padding: 30px;
       box-sizing: border-box;
       justify-content: center;
-
-      h2 {
-        font-family: "Work Sans", sans-serif;
-        font-weight: $light;
-        color: $lucky-point;
-        font-size: 30px;
-        line-height: 43px;
-      }
 
       p {
         font-family: "Work Sans", sans-serif;
