@@ -1,7 +1,13 @@
-<section class="wrap">
+<section class="wrap @if (is_front_page()) mb-110 @endif">
   @if (is_front_page())
-  <div class="container">
-    <h1>BLAH BLAH BLAH</h1>
+  <div class="container pages-header-home row">
+  <div class="video">
+
+      <img src="@asset('images/svg/Home1-01.svg')"/>
+      <img src="@asset('images/svg/Home2-01.svg')"/>
+      <img src="@asset('images/svg/video-play.svg')"/>
+  </div>
+  <div class="content">Feel what your audience feels with data from social chain</div>
   </div>
   @elseif (is_page(array( 'what-we-do', 'how-we-do-it', 'contact', 'privacy-policy', 'terms-conditions',)))
   <div class="hero-section grey">
