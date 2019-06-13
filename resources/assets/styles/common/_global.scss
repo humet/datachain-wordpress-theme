@@ -19,8 +19,16 @@ body {
   padding: 0 30px;
 }
 
+.row {
+  flex-direction: row;
+}
+
 .row-reverse {
   flex-direction: row-reverse;
+}
+
+.column {
+  flex-direction: column;
 }
 
 .column-reverse {
