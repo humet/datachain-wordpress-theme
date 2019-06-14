@@ -94,6 +94,21 @@ body {
     box-sizing: border-box;
     justify-content: center;
     flex-direction: column;
+
+    img {
+      display: block;
+      height: 225px;
+    }
+
+    &__title {
+      padding: 20px 0;
+      text-align: center;
+      font-family: "Work Sans", sans-serif;
+      font-weight: $medium;
+      font-size: 18px;
+      line-height: 29px;
+      color: $oslo-grey;
+    }
   }
 }
 
