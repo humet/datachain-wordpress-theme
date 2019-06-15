@@ -3,47 +3,6 @@
   flex-direction: column;
   height: auto;
 
-  &-top {
-    min-height: 206px;
-    display: flex;
-    flex-direction: row;
-    background-color: $lucky-point;
-    justify-content: center;
-    color: $white;
-    padding: 50px 0;
-    box-sizing: border-box;
-  }
-
-  &-bottom {
-    min-height: 106px;
-    display: flex;
-    flex-direction: row;
-    background-color: $white;
-    justify-content: center;
-    box-sizing: border-box;
-  }
-
-  &-social {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-
-    &__icons {
-      width: 32px;
-      height: 106px;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      margin-right: 10px;
-      padding: 30px 0;
-      box-sizing: border-box;
-
-      img {
-        height: 32px;
-      }
-    }
-  }
-
   &-links {
     display: flex;
     flex-direction: row;
@@ -74,6 +33,113 @@
         &:hover {
           color: $oslo-grey;
         }
+      }
+    }
+  }
+
+  &-top {
+    min-height: 206px;
+    display: flex;
+    flex-direction: row;
+    background-color: $lucky-point;
+    justify-content: center;
+    color: $white;
+    padding: 50px 0;
+    box-sizing: border-box;
+    text-align: center;
+    font-family: "Work Sans", sans-serif;
+    font-weight: $light;
+
+    .gform_wrapper {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+
+      .gform_body {
+        width: 100%;
+      }
+
+      form {
+        display: flex;
+        flex-direction: row;
+        max-width: 700px;
+        width: 100%;
+
+        label {
+          display: none;
+        }
+
+        input {
+          max-width: 600px;
+          margin-top: 20px;
+          width: 100%;
+          border-radius: 25px;
+          height: 53px;
+          padding: 10px 30px;
+          box-sizing: border-box;
+          border: 1px solid $white;
+          background: transparent;
+          color: $white;
+          font-family: "Work Sans", sans-serif;
+          font-weight: $light;
+          outline: none;
+          font-size: 20px;
+
+          &:focus {
+            color: none;
+          }
+
+          &::placeholder {
+            color: $white;
+          }
+        }
+
+        .gform_button.button {
+          background: url(../images/svg/newsletter-signup.svg) no-repeat center center;
+          display: flex;
+          flex-direction: row;
+          justify-content: center;
+          border: 0;
+          color: transparent;
+          height: 53px;
+          width: 53px;
+        }
+
+        ul {
+          padding: 0;
+          margin: 0;
+          list-style: none;
+        }
+      }
+    }
+  }
+
+  &-bottom {
+    min-height: 106px;
+    display: flex;
+    flex-direction: row;
+    background-color: $white;
+    justify-content: center;
+    box-sizing: border-box;
+  }
+
+  &-social {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+    &__icons {
+      width: 32px;
+      height: 106px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      margin-right: 10px;
+      padding: 30px 0;
+      box-sizing: border-box;
+
+      img {
+        height: 32px;
       }
     }
   }

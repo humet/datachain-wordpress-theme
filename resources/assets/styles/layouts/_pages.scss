@@ -154,6 +154,83 @@
       }
     }
 
+    .contact-form {
+      width: 50%;
+      display: flex;
+      flex-direction: column;
+      padding: 30px;
+      box-sizing: border-box;
+      justify-content: center;
+
+      .gform_wrapper {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+
+        .gform_body {
+          width: 100%;
+        }
+
+        form {
+          display: flex;
+          flex-direction: column;
+          width: 100%;
+
+          label {
+            display: none;
+          }
+
+          input,
+          textarea {
+            margin-top: 20px;
+            width: 100%;
+            height: 53px;
+            padding: 10px 30px;
+            box-sizing: border-box;
+            font-family: "Work Sans", sans-serif;
+            font-weight: $light;
+            outline: none;
+            border: 1px solid rgba($oslo-grey, 0.5);
+            border-radius: 10px;
+            font-size: 20px;
+            color: $oslo-grey;
+          }
+
+          textarea {
+            height: 150px;
+
+            &:focus {
+              color: none;
+            }
+
+            &::placeholder {
+              color: $oslo-grey;
+            }
+          }
+
+          .gform_footer {
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-end;
+            border: 0;
+
+            input {
+              border: 0;
+              color: $white;
+              width: 200px;
+              cursor: pointer;
+            }
+          }
+
+          ul {
+            padding: 0;
+            margin: 0;
+            list-style: none;
+          }
+        }
+      }
+    }
+
     .content {
       width: 50%;
       display: flex;
@@ -174,6 +251,60 @@
         color: $oslo-grey;
         font-size: 18px;
         line-height: 29px;
+      }
+
+      .telephone {
+        font-family: "Work Sans", sans-serif;
+        font-weight: $medium;
+        font-size: 27px;
+        margin-bottom: 30px;
+
+        a {
+          color: $lucky-point;
+          text-decoration: none;
+        }
+      }
+
+      .email {
+        font-family: "Work Sans", sans-serif;
+        font-weight: $medium;
+        font-size: 27px;
+
+        a {
+          color: $lucky-point;
+        }
+      }
+
+      .social {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+
+        &__icons {
+          width: 32px;
+          height: 106px;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          margin-right: 10px;
+          padding: 30px 0;
+          box-sizing: border-box;
+
+          img {
+            height: 32px;
+          }
+        }
+      }
+
+      .fbmessenegr {
+        width: 32px;
+        height: 32px;
+        display: block;
+        cursor: pointer;
+
+        img {
+          width: 100%;
+        }
       }
     }
 
