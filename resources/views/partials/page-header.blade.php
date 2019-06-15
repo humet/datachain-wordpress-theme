@@ -14,7 +14,7 @@
     </div>
     </div>
   </div>
-  @elseif (is_page(array( 'what-we-do', 'how-we-do-it', 'contact', 'privacy-policy', 'terms-conditions',)))
+  @elseif (is_page(array( 'what-we-do', 'how-we-do-it', 'contact',)))
   <div class="hero-section grey">
   <div class="container pages-header">
     <h1>{!! App::title() !!}</h1>
@@ -22,9 +22,21 @@
   </div>
 <div class="pages-hero" style="background-image: url(' {{ the_post_thumbnail_url() }} ')"></div>
 </div>
+@elseif (is_page(array( 'privacy-policy', 'terms-conditions',)))
+<div class="hero-section grey">
+    <div class="container pages-header">
+      <h1>{!! App::title() !!}</h1>
+    </div>
+  </div>
   @elseif( is_404() )
+  <div class="hero-section grey">
   <div class="container pages-header">
-    <h1>Oh NO!</h1>
+    <h1>404</h1>
+    <div class="intro-text-404">
+      The page you are looking for doesn’t exist or another error occured. Click this button to return home.
+        <a href="/" class="button">Home</a>
+    </div>
+  </div>
   </div>
   @endif
 </section>

@@ -136,12 +136,18 @@ body {
   border-radius: 25px;
   border-color: transparent;
   border: 0;
+  cursor: pointer;
 
   &::before {
     content: ">";
     color: $white;
     margin-right: 10px;
   }
+}
+
+.legal {
+  font-family: "Work Sans", sans-serif;
+  font-weight: $light;
 }
 
 .mb-50 {
