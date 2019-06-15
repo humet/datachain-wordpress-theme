@@ -139,10 +139,20 @@
       font-family: "Work Sans", sans-serif;
       font-weight: $medium;
       color: $lucky-point;
+      width: 190px;
+
+      &::before {
+        content: "";
+        width: 100px;
+        height: 3px;
+        display: block;
+        margin-bottom: 20px;
+        background-color: $lucky-point;
+      }
     }
 
     .intro-text {
-      max-width: 550px;
+      max-width: 500px;
       width: 100%;
       display: flex;
       flex-direction: row;

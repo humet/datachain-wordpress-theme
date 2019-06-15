@@ -2,7 +2,7 @@
     <div class="footer-top">
         <div class="container">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec interdum sagittis metus vel auctor.
-        <>this is where the newsletter signup goes<>
+        {{ gravity_form( 1, false, false ) }}
         </div>
       </div>
 
