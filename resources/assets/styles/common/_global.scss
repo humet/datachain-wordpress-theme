@@ -47,6 +47,10 @@ body {
   border-bottom: 1px solid $iron;
 }
 
+.flex-start {
+  justify-content: flex-start !important;
+}
+
 .grey {
   background-color: $athens-gray !important;
 }
@@ -150,6 +154,18 @@ body {
   font-weight: $light;
 }
 
+.mt-50 {
+  margin-top: 50px;
+}
+
+.mt-102 {
+  margin-top: 102px;
+}
+
 .mb-50 {
   margin-bottom: 50px;
+}
+
+.solutions-img {
+  display: none;
 }
