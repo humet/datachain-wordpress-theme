@@ -219,6 +219,9 @@
               color: $white;
               width: 200px;
               cursor: pointer;
+              box-shadow: rgba($black, 0.2) 0 10px 10px;
+              border-radius: 25px;
+              border-color: transparent;
             }
           }
 
