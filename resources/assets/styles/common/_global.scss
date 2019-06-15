@@ -98,6 +98,7 @@ body {
     img {
       display: block;
       height: 225px;
+      width: 225px;
     }
 
     &__title {
@@ -112,6 +113,30 @@ body {
   }
 }
 
-.mb-110 {
-  margin-bottom: 110px;
+.button {
+  margin-top: 20px;
+  width: 200px;
+  height: 53px;
+  background: url(../images/svg/Buttons.svg) no-repeat center center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-align: center;
+  color: $white;
+  text-decoration: none;
+  font-family: "Work Sans", sans-serif;
+  font-weight: $medium;
+  font-size: 18px;
+  padding: 15px;
+  box-sizing: border-box;
+
+  &::before {
+    content: ">";
+    color: $white;
+    margin-right: 10px;
+  }
+}
+
+.mb-50 {
+  margin-bottom: 50px;
 }

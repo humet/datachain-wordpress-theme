@@ -1,13 +1,18 @@
-<section class="wrap @if (is_front_page()) mb-110 @endif">
+<section class="wrap @if (is_front_page()) mb-50 @endif">
   @if (is_front_page())
   <div class="container pages-header-home row">
   <div class="video">
-
-      <img src="@asset('images/svg/Home1-01.svg')"/>
-      <img src="@asset('images/svg/Home2-01.svg')"/>
-      <img src="@asset('images/svg/video-play.svg')"/>
+      <div class="floaty-stuff"><img src="@asset('images/svg/Home1-01.svg')"/></div>
+      <div class="couple"><img src="@asset('images/svg/Home2-01.svg')"/></div>
+      <div class="play-video"><img src="@asset('images/svg/video-play.svg')"/></div>
+      <div class="video-text">Let us show you how</div>
   </div>
-  <div class="content">Feel what your audience feels with data from social chain</div>
+  <div class="content">
+    <h1><span>Feel</span> what your audience feels with data from Social Chain</h1>
+    <div class="fbmessenegr">
+        <img src="@asset('images/svg/Facebook_Messenger_logo.svg')"/>
+    </div>
+    </div>
   </div>
   @elseif (is_page(array( 'what-we-do', 'how-we-do-it', 'contact', 'privacy-policy', 'terms-conditions',)))
   <div class="hero-section grey">

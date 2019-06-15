@@ -6,7 +6,7 @@
             <div class="content">
                 <h2>Discover what <span>matters</span> on social</h2>
                 <p>social-first data is changing the way brands approach campaigns. in a landscape that's already overcrowded, insights cut through to make messages stand out</p>
-                <div class=""></div>
+                <a href="/how-we-do-it" class="button">How we do it</a>
             </div>
             </div>
         </section>
