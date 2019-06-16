@@ -28,10 +28,18 @@ body {
 }
 
 .row {
+  @media only screen and (max-width: 767px) {
+    flex-direction: column;
+  }
+
   flex-direction: row;
 }
 
 .row-reverse {
+  @media only screen and (max-width: 767px) {
+    flex-direction: column;
+  }
+
   flex-direction: row-reverse;
 }
 

@@ -16,7 +16,7 @@
   </div>
   @elseif (is_page(array( 'what-we-do', 'how-we-do-it', 'contact',)))
   <div class="hero-section grey">
-  <div class="container pages-header">
+  <div class="container pages-header row">
     <h1>{!! App::title() !!}</h1>
     <div class="intro-text">@include('partials.content-page')</div>
   </div>
@@ -30,7 +30,7 @@
   </div>
   @elseif( is_404() )
   <div class="hero-section grey">
-  <div class="container pages-header">
+  <div class="container pages-header row">
     <h1>404</h1>
     <div class="intro-text-404">
       The page you are looking for doesn’t exist or another error occured. Click this button to return home.
