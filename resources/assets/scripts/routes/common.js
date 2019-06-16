@@ -8,6 +8,7 @@ export default {
     $('.mobile-nav-button').click(function() {
       $('#nav-icon2').toggleClass('open');
       $('.mobile-nav-overlay').toggleClass('show');
+      $('body').toggleClass('no-scroll');
   });
   },
 };

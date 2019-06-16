@@ -346,8 +346,15 @@ body {
   }
 }
 
+.no-scroll {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  overflow: hidden;
+}
+
 .mobile-nav-overlay {
-  position: absolute;
+  position: fixed;
   display: none;
   flex-direction: column;
   width: 100vw;
