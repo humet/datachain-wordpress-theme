@@ -13,7 +13,7 @@
         <a href="#" class="footer-social__icons"><img src="@asset('images/svg/twitter.svg')"/></a>
         <a href="#" class="footer-social__icons"><img src="@asset('images/svg/facebook.svg')"/></a>
       </div>
-      <div class="footer-links">
+      <div class="footer-links row">
           @if (has_nav_menu('footer_navigation'))
           {!! wp_nav_menu(['theme_location' => 'footer_navigation', 'menu_class' => 'nav']) !!}
         @endif

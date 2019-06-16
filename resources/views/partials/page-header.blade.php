@@ -1,6 +1,6 @@
 <section class="wrap @if (is_front_page()) mb-50 @endif">
   @if (is_front_page())
-  <div class="container pages-header-home row">
+  <div class="container pages-header-home row sm-column-reverse">
   <div class="video">
       <div class="floaty-stuff"><img src="@asset('images/svg/Home1-01.svg')"/></div>
       <div class="couple"><img src="@asset('images/svg/Home2-01.svg')"/></div>
