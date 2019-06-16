@@ -24,6 +24,11 @@
   }
 
   .nav-primary {
+    @media only screen and (max-width: 767px) {
+      justify-content: flex-start;
+      margin-top: 100px;
+    }
+
     display: flex;
     flex-direction: column;
     justify-content: center;
