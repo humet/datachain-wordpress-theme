@@ -19,7 +19,9 @@
     img {
       width: 100%;
       max-width: 144px;
+      min-height: 38px;
       height: auto;
+      display: block;
     }
   }
 
