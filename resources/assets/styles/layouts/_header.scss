@@ -4,6 +4,7 @@
   position: fixed;
   top: 0;
   background: $white;
+  z-index: 1;
 
   .container {
     flex-direction: row !important;
