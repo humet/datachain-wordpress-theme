@@ -23,17 +23,23 @@
                 <div class="content mt-102 flex-start">
                     <ul class="solutions-tabs">
                         <li>
-                            <a href="#solutions1" class="solutions"><img class="number" src="@asset('images/svg/1.svg')"/>We identify challenges and objectives by asking brands what they want to achieve.
+                            <a href="#solutions1" class="solutions">
+                                <div class="row">
+                                    <img class="number" src="@asset('images/svg/1.svg')"/>We identify challenges and objectives by asking brands what they want to achieve.
+                                </div>
                                 <div class="solutions-block-mobile">
-                                        <div class="solutions-img-mobile">
-                                                <img src="@asset('images/svg/HowWeDoIt1-01.svg')"/>
-                                        </div>
+                                    <div class="solutions-img-mobile">
+                                            <img src="@asset('images/svg/HowWeDoIt1-01.svg')"/>
                                     </div>
+                                </div>
                             </a>
                         </li>
                         <li>
-                            <a href="#solutions2"  class="solutions"><img class="number" src="@asset('images/svg/2.svg')"/>Use existing research, market analysis and reports to learn about the current landscape.
-                                <div class="solutions-block-mobile">
+                            <a href="#solutions2"  class="solutions">
+                                    <div class="row">
+                                        <img class="number" src="@asset('images/svg/2.svg')"/>Use existing research, market analysis and reports to learn about the current landscape.
+                                    </div>
+                                        <div class="solutions-block-mobile">
                                         <div class="solutions-img-mobile ">
                                                 <img src="@asset('images/svg/HowWeDoIt2-01.svg')"/>
                                         </div>
@@ -41,8 +47,11 @@
                             </a>
                         </li>
                         <li>
-                            <a href="#solutions3"  class="solutions"><img class="number" src="@asset('images/svg/3.svg')"/>Establish focus points and areas that haven’t been covered by past research.
-                                <div class="solutions-block-mobile">
+                            <a href="#solutions3"  class="solutions">
+                                    <div class="row">
+                                        <img class="number" src="@asset('images/svg/3.svg')"/>Establish focus points and areas that haven’t been covered by past research.
+                                    </div>
+                                        <div class="solutions-block-mobile">
                                         <div class="solutions-img-mobile">
                                                 <img src="@asset('images/svg/HowWeDoIt3-01.svg')"/>
                                         </div>
@@ -50,8 +59,11 @@
                             </a>
                         </li>
                         <li>
-                            <a href="#solutions4"  class="solutions"><img class="number" src="@asset('images/svg/4.svg')"/>Proceed with analysis using relevant listening tools, platforms and our network.
-                                <div class="solutions-block-mobile">
+                            <a href="#solutions4"  class="solutions">
+                                    <div class="row">
+                                        <img class="number" src="@asset('images/svg/4.svg')"/>Proceed with analysis using relevant listening tools, platforms and our network.
+                                    </div>
+                                        <div class="solutions-block-mobile">
                                         <div class="solutions-img-mobile">
                                                 <img src="@asset('images/svg/HowWeDoIt4-01.svg')"/>
                                         </div>
@@ -59,8 +71,11 @@
                             </a>
                         </li>
                         <li>
-                            <a href="#solutions5"  class="solutions"><img class="number" src="@asset('images/svg/5.svg')"/>Present clear findings and advice, based on what we’ve uncovered above.
-                                <div class="solutions-block-mobile">
+                            <a href="#solutions5"  class="solutions">
+                                    <div class="row">
+                                        <img class="number" src="@asset('images/svg/5.svg')"/>Present clear findings and advice, based on what we’ve uncovered above.
+                                    </div>
+                                        <div class="solutions-block-mobile">
                                         <div class="solutions-img-mobile">
                                                 <img src="@asset('images/svg/HowWeDoIt5-01.svg')"/>
                                         </div>

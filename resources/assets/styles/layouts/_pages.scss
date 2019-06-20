@@ -410,7 +410,7 @@
         display: none;
 
         @media only screen and (max-width: 767px) {
-          padding: 30px 0;
+          padding: 30px;
           width: 100%;
           height: auto;
           margin-top: 30px;
@@ -457,12 +457,19 @@
             color: $oslo-grey;
             text-decoration: none;
             display: block;
-            padding: 30px 30px 30px 100px;
             position: relative;
+
+            .row {
+              padding: 30px 30px 30px 100px;
+            }
 
             &.current {
               .solutions-block-mobile {
-                display: block;
+                display: none;
+
+                @media only screen and (max-width: 767px) {
+                  display: block;
+                }
               }
             }
           }
