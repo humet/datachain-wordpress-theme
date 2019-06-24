@@ -4,6 +4,7 @@
   position: fixed;
   top: 0;
   background: $white;
+  z-index: 1;
 
   .container {
     flex-direction: row !important;
@@ -19,7 +20,9 @@
     img {
       width: 100%;
       max-width: 144px;
+      min-height: 38px;
       height: auto;
+      display: block;
     }
   }
 
@@ -87,6 +90,7 @@
           height: 2px;
           width: 100%;
           margin-top: 5px;
+          background-size: 53px;
         }
       }
     }
