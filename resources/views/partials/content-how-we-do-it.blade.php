@@ -4,8 +4,13 @@
                     <img src="@asset('images/svg/Home4-01.svg')"/>
             </div>
             <div class="content">
-                <h2>Discover what <span>matters</span> on social</h2>
-                <p>social-first data is changing the way brands approach campaigns. in a landscape that's already overcrowded, insights cut through to make messages stand out</p>
+                <h2>The authority <span>on your</span> audience</h2>
+<p>A one perspective approach
+    to data limits brands. Our
+    process combines the world’s
+    leading social listening tools
+    with primary sources to
+    uncover hidden opportunities.</p>
                 <a href="/how-we-do-it" class="button">How we do it</a>
             </div>
             </div>
