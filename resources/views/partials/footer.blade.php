@@ -1,7 +1,7 @@
 <footer class="wrap footer">
     <div class="footer-top">
         <div class="container">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec interdum sagittis metus vel auctor.
+          Use Social Chain Data to increase your brand’s relevance on social.
         {{ gravity_form( 1, false, false ) }}
         </div>
       </div>
