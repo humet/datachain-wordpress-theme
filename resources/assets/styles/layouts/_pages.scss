@@ -77,7 +77,6 @@
       @media only screen and (max-width: 767px) {
         width: 100%;
         margin: 0;
-        padding: 0 30px;
         box-sizing: border-box;
       }
 
@@ -91,8 +90,8 @@
 
       .floaty-stuff-couple {
         @media only screen and (max-width: 767px) {
-          width: calc(100% - 60px);
-          left: 30px;
+          width: calc(100% - 30px);
+          left: 15px;
           top: -50px;
         }
 
