@@ -2,8 +2,7 @@
   @if (is_front_page())
   <div class="container pages-header-home row sm-column-reverse">
   <div class="video">
-      <div class="floaty-stuff"><img src="@asset('images/svg/Home1-01.svg')"/></div>
-      <div class="couple"><img src="@asset('images/svg/Home2-01.svg')"/></div>
+      <div id="floaty-stuff-couple" class="floaty-stuff-couple">{!! do_shortcode(get_field('home_1', 'options')) !!}</div>
       <div class="play-video"><img src="@asset('images/svg/video-play.svg')"/></div>
       <div class="video-text">Let us show you how</div>
   </div>

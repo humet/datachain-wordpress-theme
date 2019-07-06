@@ -1,7 +1,7 @@
 <section class="wrap white-section">
         <div class="container row">
             <div class="animated-svg">
-                    <img src="@asset('images/svg/Home4-01.svg')"/>
+                    {!! do_shortcode(get_field('home_3', 'options')) !!}
             </div>
             <div class="content">
                 <h2>The authority <span>on your</span> audience</h2>
