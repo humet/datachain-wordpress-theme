@@ -131,3 +131,6 @@ add_action('after_setup_theme', function () {
         return "<?= " . __NAMESPACE__ . "\\asset_path({$asset}); ?>";
     });
 });
+
+//additional function for wordpress
+require_once( __DIR__ . '/functions/add-ACF-theme-options-menu-page.php');
