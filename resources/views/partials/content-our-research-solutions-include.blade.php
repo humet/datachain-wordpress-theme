@@ -4,19 +4,19 @@
             <h2 class="alt">Our research solutions include:</h2>
             <div class="solutions-block">
             <div id="solutions1" class="solutions-img" style="display: block;">
-                    <img src="@asset('images/svg/HowWeDoIt1-01.svg')"/>
+                {!! do_shortcode(get_field('hwdi_1', 'options')) !!}
             </div>
                 <div id="solutions2" class="solutions-img">
-                    <img src="@asset('images/svg/HowWeDoIt2-01.svg')"/>
+                    {!! do_shortcode(get_field('hwdi_2', 'options')) !!}
                 </div>
                 <div id="solutions3" class="solutions-img">
-                    <img src="@asset('images/svg/HowWeDoIt3-01.svg')"/>
+                    {!! do_shortcode(get_field('hwdi_3', 'options')) !!}
                 </div>
                 <div  id="solutions4" class="solutions-img">
-                    <img src="@asset('images/svg/HowWeDoIt4-01.svg')"/>
+                    {!! do_shortcode(get_field('hwdi_4', 'options')) !!}
                 </div>
                 <div id="solutions5" class="solutions-img">
-                    <img src="@asset('images/svg/HowWeDoIt5-01.svg')"/>
+                    {!! do_shortcode(get_field('hwdi_5', 'options')) !!}
                 </div>
             </div>
                 </div>
@@ -29,7 +29,7 @@
                                 </div>
                                 <div class="solutions-block-mobile">
                                     <div class="solutions-img-mobile">
-                                            <img src="@asset('images/svg/HowWeDoIt1-01.svg')"/>
+                                        {!! do_shortcode(get_field('hwdi_1', 'options')) !!}
                                     </div>
                                 </div>
                             </a>
@@ -41,7 +41,7 @@
                                     </div>
                                         <div class="solutions-block-mobile">
                                         <div class="solutions-img-mobile ">
-                                                <img src="@asset('images/svg/HowWeDoIt2-01.svg')"/>
+                                            {!! do_shortcode(get_field('hwdi_2', 'options')) !!}
                                         </div>
                                     </div>
                             </a>
@@ -53,7 +53,7 @@
                                     </div>
                                         <div class="solutions-block-mobile">
                                         <div class="solutions-img-mobile">
-                                                <img src="@asset('images/svg/HowWeDoIt3-01.svg')"/>
+                                            {!! do_shortcode(get_field('hwdi_3', 'options')) !!}
                                         </div>
                                     </div>
                             </a>
@@ -65,7 +65,7 @@
                                     </div>
                                         <div class="solutions-block-mobile">
                                         <div class="solutions-img-mobile">
-                                                <img src="@asset('images/svg/HowWeDoIt4-01.svg')"/>
+                                            {!! do_shortcode(get_field('hwdi_4', 'options')) !!}
                                         </div>
                                     </div>                          
                             </a>
@@ -77,7 +77,7 @@
                                     </div>
                                         <div class="solutions-block-mobile">
                                         <div class="solutions-img-mobile">
-                                                <img src="@asset('images/svg/HowWeDoIt5-01.svg')"/>
+                                            {!! do_shortcode(get_field('hwdi_5', 'options')) !!}
                                         </div>
                                     </div>
                                 </a>

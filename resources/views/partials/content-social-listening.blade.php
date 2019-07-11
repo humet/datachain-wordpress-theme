@@ -1,7 +1,7 @@
 <section class="wrap grey-section">
         <div class="container row">
             <div class="animated-svg">
-                    <img src="@asset('images/svg/WhatWeDo2-01.svg')"/>
+                {!! do_shortcode(get_field('wwd_2', 'options')) !!}
             </div>
             <div class="content">
                     <div class="title-section"><div class="arrow"></div><h2>Social Listening</h2><div class="icon mobile"><img src="@asset('images/svg/ear.svg')"/></div></div>
