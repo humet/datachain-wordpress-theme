@@ -25,9 +25,13 @@
 
 
 <script> 
-   // Hide Title Proactive 
+  //  myLandbotLivechat.on('landbot-load', () => { 
+  //  var frameBody = window.document.getElementsByClassName("LandbotProactive__frame__content")[0].contentDocument.body; 
+  //  frameBody.querySelector(".hu-message-author").style.display = "none" 
+  //  // ualee_077 // });
+
    myLandbotLivechat.on('landbot-load', () => { 
    var frameBody = window.document.getElementsByClassName("LandbotProactive__frame__content")[0].contentDocument.body; 
-   frameBody.querySelector(".hu-message-author").style.display = "none" 
-   // ualee_077 // });
+   frameBody.querySelector(".hu-message-author").style.display = "none"});
+
 </script>
