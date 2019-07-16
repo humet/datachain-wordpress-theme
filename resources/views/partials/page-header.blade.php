@@ -8,9 +8,6 @@
   </div>
   <div class="content">
     <h1><span>Feel</span> what your audience feels with data from Social Chain</h1>
-    <div class="fbmessenegr">
-        <img src="@asset('images/svg/Facebook_Messenger_logo.svg')"/>
-    </div>
     </div>
   </div>
   @elseif (is_page(array( 'what-we-do', 'how-we-do-it', 'contact',)))
