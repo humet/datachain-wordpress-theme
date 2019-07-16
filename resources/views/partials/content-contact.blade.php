@@ -8,9 +8,6 @@
                         <a href="#" class="social__icons"><img src="@asset('images/svg/twitter.svg')"/></a>
                         <a href="#" class="social__icons"><img src="@asset('images/svg/facebook.svg')"/></a>
                 </div>
-                <div class="fbmessenegr">
-                        <img src="@asset('images/svg/Facebook_Messenger_logo.svg')"/>
-                    </div>
             </div>
             <div class="contact-form">
                 {{ gravity_form( 2, false, false ) }}
