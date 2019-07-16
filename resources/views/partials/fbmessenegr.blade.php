@@ -10,17 +10,19 @@
   });
 </script>
 
+
 <script> 
-  // Custom Avatar in Proactive Message  (Different than Header Pic) 
-  //TODO=> CHANGE URL FOR CUSTOM URL PICTURE// 
-  var urlCustomAvatar = "https://www.socialchain.com/wp-content/uploads/2019/07/SC-Data-Icon2.png"; 
+   // Custom Avatar in Proactive Message  (Different than Header Pic) 
+   //TODO=> CHANGE URL FOR CUSTOM URL PICTURE// 
+   var urlCustomAvatar = "https://www.socialchain.com/wp-content/uploads/2019/07/SC-Data-Icon2.png"; 
 
-  //DO NOT EDIT BELOW THIS LINE// 
-  var holderUrl = url(${urlCustomAvatar}) 
-  myLandbotLivechat.on('landbot-load', () => { window.document.getElementsByClassName("LandbotProactive__frame__content")[0].contentDocument.body.childNodes[0].childNodes[0].childNodes[3].childNodes[1].childNodes[0].childNodes[0].childNodes[0].style.backgroundImage = holderUrl 
+   //DO NOT EDIT BELOW THIS LINE// 
+   var holderUrl = `url(${urlCustomAvatar})` 
+   myLandbotLivechat.on('landbot-load', () => { window.document.getElementsByClassName("LandbotProactive__frame__content")[0].contentDocument.body.childNodes[0].childNodes[0].childNodes[3].childNodes[1].childNodes[0].childNodes[0].childNodes[0].style.backgroundImage = holderUrl 
 
- // ualee_076 // }); 
+  // ualee_076 // }); 
 </script>
+
 
 <script> 
    // Hide Title Proactive 
