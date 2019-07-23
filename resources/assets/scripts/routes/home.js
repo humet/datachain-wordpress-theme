@@ -9,5 +9,10 @@ export default {
       $('.video-overlay').addClass('show');
       $('body').addClass('no-scroll');
   });
+
+  $('.video-overlay').click(function() {
+    $(this).removeClass('show');
+    $('body').removeClass('no-scroll');
+  });
   },
 };
