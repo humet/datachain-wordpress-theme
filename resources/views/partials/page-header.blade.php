@@ -3,7 +3,7 @@
   <div class="container pages-header-home row sm-column-reverse">
   <div class="video">
       <div id="floaty-stuff-couple" class="floaty-stuff-couple">{!! do_shortcode(get_field('home_1', 'options')) !!}</div>
-      <div class="play-video"><img src="@asset('images/svg/video-play.svg')"/></div>
+      <a href="#" class="button--play">play video</a>
       <div class="video-text">Let us show you how</div>
   </div>
   <div class="content">

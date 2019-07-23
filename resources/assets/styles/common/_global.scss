@@ -200,6 +200,41 @@ body {
     color: $white;
     margin-right: 10px;
   }
+
+  &--play {
+    @extend .button;
+
+    cursor: pointer;
+    margin: 30px auto 0;
+    position: relative;
+    display: block;
+
+    &::before {
+      display: none;
+    }
+
+    &::after {
+      content: ">";
+      color: $white;
+      margin-left: 10px;
+    }
+  }
+}
+
+.video-overlay {
+  position: fixed;
+  display: none;
+  flex-direction: column;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba($black, 0.6);
+  z-index: 10;
+  padding: 40px;
+  box-sizing: border-box;
 }
 
 .legal {
