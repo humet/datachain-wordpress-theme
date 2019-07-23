@@ -4,18 +4,23 @@
             <h2 class="alt">Our research solutions include:</h2>
             <div class="solutions-block">
             <div id="solutions1" class="solutions-img" style="display: block;">
+                <img class="number" src="@asset('images/svg/1.svg')"/>
                 {!! do_shortcode(get_field('hwdi_1', 'options')) !!}
             </div>
                 <div id="solutions2" class="solutions-img">
+                        <img class="number" src="@asset('images/svg/2.svg')"/>
                     {!! do_shortcode(get_field('hwdi_2', 'options')) !!}
                 </div>
                 <div id="solutions3" class="solutions-img">
+                        <img class="number" src="@asset('images/svg/3.svg')"/>
                     {!! do_shortcode(get_field('hwdi_3', 'options')) !!}
                 </div>
                 <div  id="solutions4" class="solutions-img">
+                        <img class="number" src="@asset('images/svg/4.svg')"/>
                     {!! do_shortcode(get_field('hwdi_4', 'options')) !!}
                 </div>
                 <div id="solutions5" class="solutions-img">
+                        <img class="number" src="@asset('images/svg/5.svg')"/>
                     {!! do_shortcode(get_field('hwdi_5', 'options')) !!}
                 </div>
             </div>
