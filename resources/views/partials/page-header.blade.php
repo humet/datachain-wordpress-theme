@@ -20,7 +20,7 @@
 </div>
 @elseif (is_page(array( 'privacy-policy', 'terms-conditions',)))
 <div class="hero-section grey">
-    <div class="container pages-header">
+    <div class="container pages-header row">
       <h1>{!! App::title() !!}</h1>
     </div>
   </div>
