@@ -1,12 +1,13 @@
 <div class="video-overlay">
   <div class="cross"></div>
   <div itemscope itemtype="https://schema.org/VideoObject">
-    <meta itemprop="uploadDate" content="Wed Jul 24 2019 14:08:37 GMT+0100 (British Summer Time)"/>
-    <meta itemprop="name" content="Sc-data-2407"/>
+    <meta itemprop="uploadDate" content="Wed Jul 24 2019 20:41:21 GMT+0100 (British Summer Time)"/>
+    <meta itemprop="name" content="Sc Data 2704"/>
     <meta itemprop="duration" content="PT2M28.89S" />
-    <meta itemprop="thumbnailUrl" content="https://content.jwplatform.com/thumbs/ZiwuPADI-1280.jpg"/>
-    <meta itemprop="contentUrl" content="https://content.jwplatform.com/videos/ZiwuPADI-WoqsQSXj.mp4"/>
-    <script src="https://cdn.jwplayer.com/players/ZiwuPADI-T0PF2eBM.js"></script></div>
+    <meta itemprop="thumbnailUrl" content="https://content.jwplatform.com/thumbs/YDqkWm44-1920.jpg"/>
+    <meta itemprop="contentUrl" content="https://content.jwplatform.com/videos/YDqkWm44-mZRGQPeg.mp4"/>
+    <script src="https://cdn.jwplayer.com/players/YDqkWm44-T0PF2eBM.js"></script>
+  </div>
 </div>
 <footer class="wrap footer">
     @if (!is_page('contact'))
