@@ -2,7 +2,6 @@
   hello
 </div>
 <footer class="wrap footer">
-    @include('partials.fbmessenegr')
     <div class="footer-top">
         <div class="container">
           Use Social Chain Data to increase your brand’s relevance on social.

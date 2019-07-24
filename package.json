@@ -76,6 +76,7 @@
     "yargs": "~11.0.0"
   },
   "dependencies": {
+    "animate.css": "^3.7.2",
     "jquery": "^3.3.1",
     "lottie-web": "^5.5.6"
   }
