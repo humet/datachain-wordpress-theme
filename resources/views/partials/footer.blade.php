@@ -9,13 +9,17 @@
     <script src="https://cdn.jwplayer.com/players/ZiwuPADI-T0PF2eBM.js"></script></div>
 </div>
 <footer class="wrap footer">
+    @if (!is_page('contact'))
     <div class="footer-top">
         <div class="container">
           Use Social Chain Data to increase your brand’s relevance on social.
-        {{ gravity_form( 1, false, false ) }}
+        {{-- {{ gravity_form( 1, false, false ) }} --}}
+        <a href="/contact#contact" class="button center">Contact Us</a>
         </div>
       </div>
-
+      @else
+      <div class="footer-top-border"></div>
+      @endif
     <div class="footer-bottom">
         <div class="container row space-between">
       <div class="footer-social">
