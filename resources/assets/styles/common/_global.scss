@@ -75,6 +75,10 @@ body {
   justify-content: flex-start !important;
 }
 
+.center {
+  margin: 0 auto;
+}
+
 .grey {
   background-color: $athens-gray !important;
 }
@@ -225,6 +229,8 @@ body {
   position: fixed;
   display: none;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
   width: 100vw;
   height: 100vh;
   top: 0;
@@ -235,6 +241,20 @@ body {
   padding: 40px;
   box-sizing: border-box;
   z-index: 10000;
+
+  .cross {
+    width: 50px;
+    height: 50px;
+    background: url("../images/svg/cross.svg") center center no-repeat;
+    position: absolute;
+    top: 0;
+    right: 0;
+    cursor: pointer;
+  }
+
+  .jwplayer {
+    margin: 0 auto;
+  }
 }
 
 .legal {
@@ -429,7 +449,7 @@ body {
 }
 
 .show {
-  display: block !important;
+  display: flex !important;
 }
 
 .widget {
@@ -444,6 +464,7 @@ body {
     display: block;
     background-color: $white;
     width: 100%;
+    box-shadow: rgba($black, 0.2) 0 10px 10px;
   }
 
   .close-widget {

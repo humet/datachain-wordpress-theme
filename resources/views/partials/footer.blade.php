@@ -1,14 +1,25 @@
 <div class="video-overlay">
-  hello
+  <div class="cross"></div>
+  <div itemscope itemtype="https://schema.org/VideoObject">
+    <meta itemprop="uploadDate" content="Wed Jul 24 2019 14:08:37 GMT+0100 (British Summer Time)"/>
+    <meta itemprop="name" content="Sc-data-2407"/>
+    <meta itemprop="duration" content="PT2M28.89S" />
+    <meta itemprop="thumbnailUrl" content="https://content.jwplatform.com/thumbs/ZiwuPADI-1280.jpg"/>
+    <meta itemprop="contentUrl" content="https://content.jwplatform.com/videos/ZiwuPADI-WoqsQSXj.mp4"/>
+    <script src="https://cdn.jwplayer.com/players/ZiwuPADI-T0PF2eBM.js"></script></div>
 </div>
 <footer class="wrap footer">
+    @if (!is_page('contact'))
     <div class="footer-top">
         <div class="container">
           Use Social Chain Data to increase your brand’s relevance on social.
-        {{ gravity_form( 1, false, false ) }}
+        {{-- {{ gravity_form( 1, false, false ) }} --}}
+        <a href="/contact#contact" class="button center">Contact Us</a>
         </div>
       </div>
-
+      @else
+      <div class="footer-top-border"></div>
+      @endif
     <div class="footer-bottom">
         <div class="container row space-between">
       <div class="footer-social">

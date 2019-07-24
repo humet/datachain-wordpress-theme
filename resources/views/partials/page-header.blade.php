@@ -7,7 +7,7 @@
       <div class="video-text">Let us show you how</div>
   </div>
   <div class="content">
-    <h1><span>Feel</span> what your audience feels with data from Social Chain</h1>
+    <h1><span>Feel</span> what your audience feels <br class="desktop"/> with data from <br class="desktop"/> Social Chain</h1>
     </div>
   </div>
   @elseif (is_page(array( 'what-we-do', 'how-we-do-it', 'contact',)))

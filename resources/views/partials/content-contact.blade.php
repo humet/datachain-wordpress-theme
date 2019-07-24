@@ -1,4 +1,4 @@
-<section class="wrap white-section">
+<section id="contact" class="wrap white-section">
         <div class="container row">
             <div class="content">
                 <div class="telephone"><a href="tel:01619747887">0161 974 7887</a></div>

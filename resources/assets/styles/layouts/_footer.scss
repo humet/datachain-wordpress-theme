@@ -55,6 +55,13 @@
     font-family: "Work Sans", sans-serif;
     font-weight: $light;
 
+    &-border {
+      background-color: $lucky-point;
+      height: 3px;
+      width: 100%;
+      display: block;
+    }
+
     .gform_wrapper {
       display: flex;
       flex-direction: row;

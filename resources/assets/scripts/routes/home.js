@@ -10,8 +10,8 @@ export default {
       $('body').addClass('no-scroll');
   });
 
-  $('.video-overlay').click(function() {
-    $(this).removeClass('show');
+  $('.video-overlay .cross').click(function() {
+    $('.video-overlay').removeClass('show');
     $('body').removeClass('no-scroll');
   });
   },
