@@ -22,6 +22,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     </div>
     @php do_action('get_footer') @endphp
     @include('partials.footer')
+    @include('partials.chatbot')
     @php wp_footer() @endphp
   </body>
 </html>

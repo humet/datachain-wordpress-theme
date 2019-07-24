@@ -10,5 +10,18 @@ export default {
       $('.mobile-nav-overlay').toggleClass('show');
       $('body').toggleClass('no-scroll');
   });
+
+  $('.chat-bot').click(function() {
+    $('.widget').show();
+    $('.close-widget').show();
+    $('.hand').hide();
+    $('.close').hide();
+});
+
+$('.close-widget').click(function() {
+  $('.widget').hide();
+  $('.hand').show();
+  $('.close').show();
+});
   },
 };
