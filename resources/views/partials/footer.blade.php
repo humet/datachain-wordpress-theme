@@ -1,6 +1,6 @@
 <div class="video-overlay">
   <div class="cross"></div>
-  <div itemscope itemtype="https://schema.org/VideoObject">
+  <div class="video-wrapper" itemscope itemtype="https://schema.org/VideoObject">
     <meta itemprop="uploadDate" content="Wed Jul 24 2019 20:41:21 GMT+0100 (British Summer Time)"/>
     <meta itemprop="name" content="Sc Data 2704"/>
     <meta itemprop="duration" content="PT2M28.89S" />
