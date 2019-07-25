@@ -252,8 +252,22 @@ body {
     cursor: pointer;
   }
 
-  .jwplayer {
-    margin: 0 auto;
+  .video-wrapper {
+    max-width: 1000px;
+    max-height: 850px;
+    width: 100%;
+    display: block;
+    height: auto;
+
+    .jwplayer {
+      margin: 0 auto;
+      width: 100% !important;
+      height: 600px !important;
+
+      @media only screen and (max-width: 500px) {
+        height: 280px !important;
+      }
+    }
   }
 }
 
