@@ -77,7 +77,7 @@
   },
   "dependencies": {
     "animate.css": "^3.7.2",
-    "jquery": "^3.3.1",
+    "jquery": "^3.5.0",
     "lottie-web": "^5.5.6"
   }
 }
